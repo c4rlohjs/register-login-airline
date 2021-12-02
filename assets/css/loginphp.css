@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background: url('../img/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* login style */
+#option__login {
+    display: flex;
+    justify-content: center;
+}
+
+
+#title__login{
+    margin-top: 125px;
+    color: #fff;
+}
+
+#orsing__login {
+    color: #fff;
+    text-align: center;
+}
+
+#sing__login {
+    text-decoration: none;    
+}
+
+#sing__login:hover {
+    text-decoration: underline;
+    color: #c92800;
+}
+
+#form__login {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#mail__login, #password__login, #watchpassword__login {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 0px 10px 0px;
+    background: rgb(248, 244, 244);
+    border-radius: 5px;
+    border: 2px solid #fff;
+    outline: none;
+}
+
+#mail__login:hover, #password__login:hover {
+    border: 2px solid #c92800;
+}
+
+#send__login {
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 10px 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #7700ff;
+    background: #7700ff;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+#send__login:hover {
+    background: #c806e2;
+    border: 1px solid #e900e9;
+    transition: 0.5s;
+}
+
+@keyframes mover {
+    0%{
+        transform: translate(100%);
+    }
+}
+

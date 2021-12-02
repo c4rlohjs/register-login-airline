@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background: url('../img/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Rubik', sans-serif;
+}
+/* index style */
+#option__index {
+    display: flex;
+    justify-content: center;
+}
+
+#login__index, #register__index, p {
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+#login__index, p{
+    padding-right: 8px;
+}
+
+#login__index:hover, #register__index:hover {
+    color: aqua;
+}
+
